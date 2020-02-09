@@ -1,0 +1,73 @@
+@import '../variables.scss';
+
+[type="checkbox"]+span:not(.lever) {
+  height: 0 !important;
+  line-height: 20px !important;
+};
+form {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  display: flex;
+  text-transform: capitalize;
+}
+
+.normal span {
+  color: $normal;
+}
+.fighting span {
+  color: $fighting;
+}
+
+.flying span {
+  color: $flying;
+}
+.poison  {
+  color: $poison;
+}
+.ground span {
+  color: $ground;
+}
+.rock span {
+  color: $rock;
+}
+.bug span {
+  color: $bug;
+}
+.ghost span {
+  color: $ghost;
+}
+.steel span {
+  color: $steel;
+}
+.fire span {
+  color: $fire;
+}
+.water span {
+  color: $water;
+}
+.grass span {
+  color: $grass;
+}
+.electric span {
+  color: $electric;
+}
+.psychic span {
+  color: $psychic;
+}
+.ice span {
+  color: $ice;
+}
+.dragon span {
+  color: $dragon;
+}
+.dark span {
+  color: $dark;
+}
+.fairy span {
+  color: $fairy;
+}
+.shadow span {
+  color: $shadow;
+}
